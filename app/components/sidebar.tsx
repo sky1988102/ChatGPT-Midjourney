@@ -140,7 +140,7 @@ export function SideBar(props: { className?: string }) {
           icon={<GemIcon />}
           text={shouldNarrow ? undefined : "Key"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open(https://key.haoque.shop, "_blank")}
+          onClick={() => window.open("https://key.haoque.shop", "_blank")}
           shadow
         />
       </div>

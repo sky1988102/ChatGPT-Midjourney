@@ -112,6 +112,10 @@ export const DEFAULT_MODELS = [
     name: "midjourney",
     available: true,
   },
+  {
+    name: "gpt-4-dalle",
+    available: true,
+  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
